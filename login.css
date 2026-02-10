@@ -1,0 +1,138 @@
+h1 {
+    font-family: Arial;
+    font-size: 80px;
+    color: #000080;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 48px;
+    color: #000080;
+    font-weight: lighter; 
+}
+
+.SubmitButton {
+    color: black;
+    height: 50px;
+    width: 200px;
+    font-size: large;
+
+}
+
+#EmailField {
+    height: 50px;
+    width: 400px;
+}
+
+#PasswordField {
+    height: 50px;
+    width: 400px;
+}
+
+h1, .SubmitButton {
+    font-family: Impact;
+}
+
+* {
+    font-family: Verdana;
+}
+
+.LoginDetails {
+    height: 20%;
+    width: 40%;
+    background: rgb(30,144,255);
+    background: linear-gradient(159deg, rgba(30,144,255,1) 0%, rgba(153,186,221,1) 100%);
+    padding-left: 10%;
+    padding-right: 14%;
+    padding-bottom: 5%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.LoginPage {
+    margin: 15%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: row;
+}
+
+div h1 {
+    color: #FFFFFF;
+}
+
+.InputText {
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+p {
+    color: black;
+}
+
+.ForgotText, .NewUserText {
+    border-style: hidden;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.ForgotText {
+    margin-top: 48px;
+}
+
+.SignUpDetails {
+    height: 20%;
+    width: 20%;
+    background: rgb(30,144,255);
+    background: linear-gradient(159deg, rgba(30,144,255,1) 0%, rgba(153,186,221,1) 100%);
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 8%;
+    padding-right: 15%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.ForgotPasswordDetails {
+    height: 20%;
+    width: 20%;
+    background: rgb(30,144,255);
+    background: linear-gradient(159deg, rgba(30,144,255,1) 0%, rgba(153,186,221,1) 100%);
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 8%;
+    padding-right: 13%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.ForgotPasswordDetails h1 {
+    font-family: Impact;
+    font-size: 48px;
+    color: #000080;
+}
+
+#FirstName, #LastName, #NewEmail, #PhoneNumber, #CreatePassword, #ConfirmPassword {
+    height: 50px;
+    width: 400px;    
+}
+
+.SignUpDetails h2 {
+    padding-left: 82px;
+    font-family: Impact;
+    color: white;
+}
+
+.SignUpDetails .SubmitButton {
+    margin-left: 118px;
+}
+
+.ForgotPasswordDetails p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial;
+    padding-left: 82px;
+}

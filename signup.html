@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <button id="BackButton">Back to Login</button>
+    
+    <script>
+        document.getElementById("BackButton").addEventListener("click", function () {
+            window.location.href = "login.html";
+        });
+    </script>
+
+    <div class="SignUpDetails">
+
+        <h2>Create an account</h2>
+
+        <form action="">
+            <input class="InputText" id="FirstName" type="text" placeholder="First Name">
+            <input class="InputText" id="LastName" type="text" placeholder="Last Name">
+            <input class="InputText" id="NewEmail" type="text" placeholder="Email">
+            <input class="InputText" id="PhoneNumber" type="text" placeholder="Phone Number">
+            <input class="InputText" id="CreatePassword" type="text" placeholder="Password">
+            <input class="InputText" id="ConfirmPassword" type="text" placeholder="Confrim Password">
+            <input class="SubmitButton" id="CreateAccountButton" type="submit" value="Create account">
+        </form>
+    </div>
+</body>
+</html>
