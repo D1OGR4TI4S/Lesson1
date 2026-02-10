@@ -30,6 +30,7 @@ h2 {
     width: 400px;
 }
 
+
 h1, .SubmitButton {
     font-family: Impact;
 }
@@ -103,7 +104,7 @@ p {
     background: linear-gradient(159deg, rgba(30,144,255,1) 0%, rgba(153,186,221,1) 100%);
     padding-top: 2%;
     padding-bottom: 5%;
-    padding-left: 8%;
+    padding-left: 9%;
     padding-right: 13%;
     text-align: center;
     margin-left: 25%;
@@ -113,6 +114,7 @@ p {
     font-family: Impact;
     font-size: 48px;
     color: #000080;
+    padding-left: 92px;
 }
 
 #FirstName, #LastName, #NewEmail, #PhoneNumber, #CreatePassword, #ConfirmPassword {
@@ -132,7 +134,12 @@ p {
 
 .ForgotPasswordDetails p {
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     font-family: Arial;
     padding-left: 82px;
+    font-weight: bold;
+}
+
+.ForgotPasswordDetails .SubmitButton {
+    margin-left: 104px;
 }
